@@ -5,4 +5,8 @@ require('./armadietto/oauth_spec');
 require('./armadietto/storage_spec');
 
 require('./stores/file_tree_spec');
+
+if (process.argv.indexOf('--do-spaces') >= 0) {
+  require('./stores/digitalocean_spaces_spec');
+}
 // require('./stores/redis_spec');

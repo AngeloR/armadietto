@@ -6,6 +6,13 @@
     "host": "0.0.0.0",
     "port": 8000
   },
+  "store": "file_tree",
+  "store_config": {
+	  "bucket": "digitaloceanspaces-bucket",
+	  "endpoint": "https://region.digitaloceanspaces.com",
+	  "accessKeyId": "",
+	  "secretAccessKey": ""
+  },
   "https": {
     "enable": false,
     "force": false,
